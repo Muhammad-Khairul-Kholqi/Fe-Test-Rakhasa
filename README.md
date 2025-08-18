@@ -1,42 +1,53 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# FE Portal Berita
 
-## Getting Started
+Frontend portal berita dengan landing page dan admin dashboard. Proyek ini masih menggunakan **dummy data** untuk berita dan user login, dibangun dengan **Next.js**, **React**, dan **Tailwind CSS**.
 
-First, run the development server:
+---
+
+## Deskripsi
+
+Portal berita ini memiliki dua bagian utama:  
+
+1. **Landing Page** – Menampilkan berita berdasarkan kategori: Hot, Sports, Politics. Pengguna dapat melihat daftar berita dan detail masing-masing.  
+2. **Admin Dashboard (CMS)** – Untuk menambahkan atau mengedit berita melalui tabel interaktif dan modal.  
+
+Semua data saat ini masih dummy, namun struktur dan interaksi sudah siap dikembangkan ke backend sesungguhnya.
+
+---
+
+## Fitur
+
+### Landing Page
+- Home dengan section: **Main**, **Hot News**, **Sports**, **Politics**
+- Detail berita dengan URL spesifik untuk setiap berita
+- Responsive layout menggunakan Tailwind CSS
+- Navigasi sederhana dan interaktif
+
+### Admin Dashboard
+- Login page untuk autentikasi dummy
+- Dashboard dengan tabel berita (Hot, Sports, Politics)
+- Tabel scrollable horizontal responsive
+- Modal untuk menambah/edit berita
+- Sidebar dan header responsif
+- Pencarian berita real-time
+
+---
+
+## Halaman & URL
+
+| Halaman                     | URL                                      | Keterangan                        |
+|------------------------------|-----------------------------------------|----------------------------------|
+| Home                         | `/`                                     | Landing page utama               |
+| Detail News                  | `/pages/title-news`                      | Halaman detail berita            |
+| Login                        | `/pages/login`                           | Halaman login dummy              |
+| Admin Dashboard              | `/pages/cms/dashboard`                   | Halaman CMS admin                |
+
+---
+
+## Instalasi / Setup
+
+1. **Clone repository:**
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-
-
-## URL Page
-- Landing page (Home) : http://localhost:3000
-- Login page : http://localhost:3000/pagaes/login
-- Dashboard page : http://localhost:3000/pages/dashboard
+git clone https://github.com/Muhammad-Khairul-Kholqi/Fe-Test-Rakhasa
+npm install
