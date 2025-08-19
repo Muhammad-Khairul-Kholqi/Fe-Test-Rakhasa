@@ -10,8 +10,8 @@ export default function PrivateSidebar({ open, setOpen }) {
     const menuItems = [
         { name: "Dashboard", href: "/pages/cms/dashboard", icon: Home },
         { name: "Hot News", href: "/pages/cms/hotNews", icon: Zap },
-        { name: "Sports", href: "/pages/cms/sports", icon: Activity },
-        { name: "Politics", href: "/pages/cms/politics", icon: FileText },
+        { name: "Sports", href: "/pages/cms/sportsNews", icon: Activity },
+        { name: "Politics", href: "/pages/cms/politicsNews", icon: FileText },
     ]
 
     const renderLink = (item) => {

@@ -7,7 +7,7 @@ import newsData from "@/app/data/newsData"
 
 const ITEMS_PER_PAGE = 6
 
-export default function HotNewsPage() {
+export default function SportNewsPage() {
     const [search, setSearch] = useState("")
     const [modalOpen, setModalOpen] = useState(false)
     const [modalTitle, setModalTitle] = useState("")
@@ -19,7 +19,7 @@ export default function HotNewsPage() {
 
     const filteredNews = newsData.filter(
         (item) =>
-            item.category === "Hot" &&
+            item.category === "Politic" &&
             item.title.toLowerCase().includes(search.toLowerCase())
     )
 
@@ -46,7 +46,7 @@ export default function HotNewsPage() {
 
     return (
         <div>
-            <h2 className="text-xl font-semibold mb-5">Hots News</h2>
+            <h2 className="text-xl font-semibold mb-5">Politics News</h2>
             <div className="flex flex-col md:flex-row justify-between mb-6 gap-3">
                 <input
                     type="text"

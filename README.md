@@ -1,6 +1,6 @@
 # FE Portal Berita
 
-Frontend portal berita dengan landing page dan admin dashboard. Proyek ini masih menggunakan **dummy data** untuk berita dan user login, dibangun dengan **Next.js**, **React**, dan **Tailwind CSS**.
+Frontend portal berita dengan landing page dan admin dashboard. Proyek ini masih menggunakan **dummy data** untuk berita dan user login, dibangun dengan **Next.js**, dan **Tailwind CSS**.
 
 ---
 
@@ -35,13 +35,15 @@ Semua data saat ini masih dummy, namun struktur dan interaksi sudah siap dikemba
 
 ## Halaman & URL
 
-| Halaman                     | URL                                      | Keterangan                        |
-|------------------------------|-----------------------------------------|----------------------------------|
-| Home                         | `/`                                     | Landing page utama               |
-| Detail News                  | `/pages/title-news`                      | Halaman detail berita            |
-| Login                        | `/pages/login`                           | Halaman login dummy              |
-| Admin Dashboard              | `/pages/cms/dashboard`                   | Halaman CMS admin                |
-
+| Halaman                      | URL                                      | Keterangan                        |
+|------------------------------|-----------------------------------------|------------------------------------|
+| Home                         | `/`                                     | Landing page utama                 |
+| Detail News                  | `/pages/title-news`                     | Halaman detail berita              |
+| Login                        | `/pages/login`                          | Halaman login dummy                |
+| Admin Dashboard              | `/pages/cms/dashboard`                  | Halaman CMS admin                  |
+| Hot News                     | `/pages/cms/hotNews`                    | Halaman CRUD Admin berita hots     |
+| Sport News                   | `/pages/cms/sportsNews`                 | Halaman CRUD Admin berita sport    |
+| Politic News                 | `/pages/cms/politicsNews`               | Halaman CRUD Admin berita politic  |
 ---
 
 ## Instalasi / Setup
